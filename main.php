@@ -8,10 +8,14 @@ function Subtrair($a, $b){
     return $a - $b;
 }
 
-function DIvidir ($a, $b){
+function Dividir ($a, $b){
     return $a / $b;
 }
 
-echo "Resultado: ", Dividir (10,5);
+function Multiplicar ($a, $b){
+    return $a * $b;
+}
+
+echo "Resultado: ", Multiplicar (10,2);
 
 ?>
