@@ -2,24 +2,22 @@
 
 namespace conversor;{
 
-    function dolarParaReal ($valor, $cotacao){
-        return $valor * $cotacao;
+    function dolarParaReal($dolar, $real, $conv){
+        return $conv = $real * $dolar;
     }
 
-    function euroParaReal ($valor, $cotacao){
-        return $valor * $cotacao;
+    function euroParaReal($euro, $real, $conv){
+        return $conv = $euro * $real;
     }
 
-    function pesoParaReal ($valor, $cotacao){
-        return $valor * $cotacao;
+    function pesoParaReal($peso, $real, $conv){
+        return  $conv = $peso * $real;
     }
-
-    function libraParaReal ($valor, $cotacao){
-        return $valor * $cotacao;
+    function libraParaReal($libra, $real, $conv){
+        return $conv = $libra * $real;
     }
-
-    function ieneParaReal ($valor, $cotacao){
-        return $valor * $cotacao;
+    function ieneParaReal($iene, $real, $conv){
+        return $conv = $iene * $real;
     }
 
 }
