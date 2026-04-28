@@ -47,4 +47,35 @@ namespace geometria;{
 
 
 }
+
+namespace saude;{
+
+    function calcularImc($peso, $altura){
+        return $peso / ($altura * $altura);
+    }
+
+    function valorIdealAgua($peso){
+        return $peso * 35;
+    }
+
+    function frequenciaCardiacaMaxima($idade){
+        return 208 - 0.7 * $idade;
+    }
+
+    function converterLibrasParaQuilo($libras){
+        return $libras * 0.4536;
+    }
+
+    function calcularCaloriasBasais($peso, $idade, $sexo, $altura){
+        if ($sexo = "Homem"){
+            return 66.5 + (13.75 * $peso) + (5.003 * $altura) - (6.75 * $idade);
+        }
+         else{
+            return 655.1 + (9.56 * $peso) + (1.85 * $altura) - (4.68 * $idade);
+         }
+    }
+
+
+
+}
 ?>
